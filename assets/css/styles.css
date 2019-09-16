@@ -1,17 +1,19 @@
+/* carousel sizing and images ================================================================================*/
 .carousel .carousel-pic { 
-    width: 600px;
-    height: 400px;
-    border-radius: 75px;
+    width: 375px;
+    height: 250px;
+    border-radius: 50px;
+    border: 3px solid peru;
 }
 
 .carousel .carousel-item {
-    width: 600px;
-    height: 400px;
+    width: 375px;
+    height: 250px;
 }
 
-.carousel .carousel-item h4 {
+.carousel .carousel-item h5 {
     position: relative;
-    bottom: 130px;
+    bottom: 105px;
     width: 100%;
     padding: 5px 0px;
     margin-bottom: 0;
@@ -41,6 +43,7 @@
     background-color: yellow;
 }
 
+/* carousel arrows ============================================================================================ */
 .panel-arrows {
     width: 100%;
 }
@@ -55,5 +58,28 @@
 }
 
 a.middle-indicator-text{
-     color:black;
+    color:black;
+}
+
+/* div spacing ============================================================================================== */
+.carousel-center {
+    margin: 10px;
+}
+
+.panel-description{
+    padding: 0px 20px;
+}
+
+/* body and navbar ========================================================================================== */
+body {
+    background: url(../images/background.png);
+}
+
+nav {
+    background: url(../images/navbar.png);
+}
+
+nav .brand-logo {
+    line-height: 0%;
+    color: black;
 }
