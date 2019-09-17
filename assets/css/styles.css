@@ -44,8 +44,16 @@
 }
 
 /* carousel arrows ============================================================================================ */
-.panel-arrows {
-    width: 100%;
+.panel-arrows .right{
+    position: fixed;
+    top: 50%;
+    right: 0%;
+}
+
+.panel-arrows .left{
+    position: fixed;
+    top: 50%;
+    left: 0%;
 }
 
 .middle-indicator{
